@@ -8,24 +8,9 @@
 
 import SwiftUI
 
-struct MsgRow : View {
-    var msg = ""
-    var isMyMsg = false
-    var email = ""
-    
+struct MsgRow : View {    
     var body : some View {
-        HStack {
-            if isMyMsg {
-                Spacer()
-                Text(msg).padding(8).background(Color.blue).cornerRadius(6).foregroundColor(Color.white)
-            } else {
-                VStack(alignment: .leading) {
-                    Text(msg).padding(8).background(Color.green).cornerRadius(6).foregroundColor(Color.white)
-                    Spacer()
-                    Text(email).font(.footnote).italic()
-                }
-            }
-        }
+        Text("Hello World")
     }
 }
 
