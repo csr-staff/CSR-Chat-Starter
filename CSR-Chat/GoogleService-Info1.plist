@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>266798520985-58c7lelctn1lmgcbkq1j7jmqp62sqhq4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.266798520985-58c7lelctn1lmgcbkq1j7jmqp62sqhq4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDiSL6JMR2qagd17G1spBZPoZvj5Gtda1I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>266798520985</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>CSR.CSR-Chat</string>
+	<key>PROJECT_ID</key>
+	<string>csr-chat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>csr-chat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:266798520985:ios:7040e496c42be9695cb608</string>
+	<key>DATABASE_URL</key>
+	<string>https://csr-chat.firebaseio.com</string>
+</dict>
+</plist>
