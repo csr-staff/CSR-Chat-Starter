@@ -11,7 +11,7 @@
 		807ED341236A1C2E005DBE20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 807ED340236A1C2E005DBE20 /* GoogleService-Info.plist */; };
 		80BF9EC02375BAB40055DAF5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF9EBF2375BAB40055DAF5 /* LoginView.swift */; };
 		80BF9EC22375BAEC0055DAF5 /* FirebaseSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF9EC12375BAEC0055DAF5 /* FirebaseSession.swift */; };
-		80BF9EC42375BC8F0055DAF5 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF9EC32375BC8F0055DAF5 /* SignUp.swift */; };
+		80BF9EC42375BC8F0055DAF5 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF9EC32375BC8F0055DAF5 /* SignupView.swift */; };
 		80BF9EC62375BCCF0055DAF5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF9EC52375BCCF0055DAF5 /* User.swift */; };
 		80BF9EC82375BD570055DAF5 /* MsgPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF9EC72375BD570055DAF5 /* MsgPage.swift */; };
 		80BF9ECA2375BF580055DAF5 /* MsgRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80BF9EC92375BF580055DAF5 /* MsgRow.swift */; };
@@ -31,7 +31,7 @@
 		807ED340236A1C2E005DBE20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		80BF9EBF2375BAB40055DAF5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		80BF9EC12375BAEC0055DAF5 /* FirebaseSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseSession.swift; sourceTree = "<group>"; };
-		80BF9EC32375BC8F0055DAF5 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		80BF9EC32375BC8F0055DAF5 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		80BF9EC52375BCCF0055DAF5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		80BF9EC72375BD570055DAF5 /* MsgPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgPage.swift; sourceTree = "<group>"; };
 		80BF9EC92375BF580055DAF5 /* MsgRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MsgRow.swift; sourceTree = "<group>"; };
@@ -100,11 +100,11 @@
 			children = (
 				80F9C89F2360DD99004B831E /* AppDelegate.swift */,
 				80F9C8A12360DD99004B831E /* SceneDelegate.swift */,
+				80F9C8A62360DD99004B831E /* ContentView.swift */,
 				80BF9EBF2375BAB40055DAF5 /* LoginView.swift */,
-				80BF9EC32375BC8F0055DAF5 /* SignUp.swift */,
+				80BF9EC32375BC8F0055DAF5 /* SignupView.swift */,
 				80BF9EC92375BF580055DAF5 /* MsgRow.swift */,
 				80BF9EC72375BD570055DAF5 /* MsgPage.swift */,
-				80F9C8A62360DD99004B831E /* ContentView.swift */,
 				80BF9ECF2375FF8F0055DAF5 /* Msg.swift */,
 				80BF9EC52375BCCF0055DAF5 /* User.swift */,
 				80BF9EC12375BAEC0055DAF5 /* FirebaseSession.swift */,
@@ -250,7 +250,7 @@
 				80BF9ECA2375BF580055DAF5 /* MsgRow.swift in Sources */,
 				80BF9ED02375FF8F0055DAF5 /* Msg.swift in Sources */,
 				80BF9EC82375BD570055DAF5 /* MsgPage.swift in Sources */,
-				80BF9EC42375BC8F0055DAF5 /* SignUp.swift in Sources */,
+				80BF9EC42375BC8F0055DAF5 /* SignupView.swift in Sources */,
 				80F9C8A72360DD99004B831E /* ContentView.swift in Sources */,
 				80F9C8A52360DD99004B831E /* CSR_Chat.xcdatamodeld in Sources */,
 			);

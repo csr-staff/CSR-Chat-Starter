@@ -1,5 +1,5 @@
 //
-//  SignUp.swift
+//  SignupView.swift
 //  CSR-Chat
 //
 //  Created by Cody Sugarman on 08/11/2019.
@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct SignUp: View {
+struct SignupView: View {
     
     @EnvironmentObject var session: FirebaseSession
     
