@@ -15,6 +15,19 @@ struct LoginView: View {
     var body: some View {
         Text("Hello World")
     }
+    
+    func logIn() {
+        session.logIn(email: "email", password: "password") { (result, error) in
+            //If we run into an error while logging in...
+            if error != nil {
+
+            }
+            //If login is successful...
+            else {
+               
+            }
+        }
+    }
 }
 
 struct LoginView_Previews: PreviewProvider {

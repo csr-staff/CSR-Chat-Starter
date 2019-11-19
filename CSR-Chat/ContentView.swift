@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct ContentView: View {
+
+    @ObservedObject var session = FirebaseSession()
+
     var body: some View {
         Text("Hello World")
     }
